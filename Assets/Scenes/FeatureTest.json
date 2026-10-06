@@ -1,0 +1,26 @@
+{
+  "format": "wotech2-scene",
+  "version": 1,
+  "entities": [
+    {
+      "name": "Camera",
+      "transform": { "position": [0, 2, -6], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "camera": { "primary": true, "fov": 60 }
+    },
+    {
+      "name": "KeyLight",
+      "transform": { "position": [2, 4, 1], "rotation": [0.6, 0.2, 0], "scale": [1, 1, 1] },
+      "light": { "kind": "directional", "color": [1, 0.95, 0.85], "intensity": 3, "range": 20, "spotAngle": 0.5, "castShadows": true }
+    },
+    {
+      "name": "Hero",
+      "transform": { "position": [0, 2, 0], "rotation": [0, 0, 0], "scale": [1, 1, 1] },
+      "meshRenderer": { "asset": "Assets/Models/Triangle.gltf", "baseColor": [0.8, 0.2, 0.1, 1], "metallic": 0.1, "roughness": 0.4, "castShadow": true },
+      "rigidBody": { "type": "dynamic", "mass": 1, "useGravity": true, "linearVelocity": [0, 0, 0] },
+      "collider": { "shape": "box", "halfExtents": [0.5, 0.5, 0.5], "radius": 0.5, "height": 1, "sensor": false },
+      "audioSource": { "file": "Assets/Audio/silence.wav", "volume": 0.5, "playOnStart": false, "loop": false },
+      "script": { "path": "Assets/Scripts/feature.lua", "source": "local id = world.create('scripted')\nworld.set_position(id, 1, 1, 1)\n", "enabled": true },
+      "prefab": { "path": "Assets/Prefabs/Crate.json" }
+    }
+  ]
+}

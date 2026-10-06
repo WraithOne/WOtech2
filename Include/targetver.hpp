@@ -1,0 +1,26 @@
+﻿////////////////////////////////////////////////////////////////////////////
+///
+///			WraithOne tech 2 Engine
+///
+///			https://github.com/WraithOne/WOtech2
+///			by https://twitter.com/WraithOne
+///
+///			File: targetver.h
+///
+///			Description:
+///
+///			Created:	01.03.2015
+///			Edited:		06.04.2016
+///
+////////////////////////////////////////////////////////////////////////////
+#pragma once
+#ifndef _TARGETVER_H_
+#define _TARGETVER_H_
+
+//////////////
+// INCLUDES //
+//////////////
+
+#include <SDKDDKVer.h>
+
+#endif

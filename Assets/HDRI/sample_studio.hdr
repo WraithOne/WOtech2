@@ -1,0 +1,6 @@
+#?RADIANCE
+# Generated gradient. Production HDRIs: https://polyhaven.com/hdris
+FORMAT=32-bit_rle_rgbe
+
+-Y 8 +X 8
+Ä@¥Çà@¥Çê@¥Çò@¥Ç†@¥Ç®@¥Ç∞@¥Ç∏@¥ÇÄH¥ÇàH¥ÇêH¥ÇòH¥Ç†H¥Ç®H¥Ç∞H¥Ç∏H¥ÇÄP¥ÇàP¥ÇêP¥ÇòP¥Ç†P¥Ç®P¥Ç∞P¥Ç∏P¥ÇÄX¥ÇàX¥ÇêX¥ÇòX¥Ç†X¥Ç®X¥Ç∞X¥Ç∏X¥ÇÄ`¥Çà`¥Çê`¥Çò`¥Ç†`¥Ç®`¥Ç∞`¥Ç∏`¥ÇÄh¥Çàh¥Çêh¥Çòh¥Ç†h¥Ç®h¥Ç∞h¥Ç∏h¥ÇÄp¥Çàp¥Çêp¥Çòp¥Ç†p¥Ç®p¥Ç∞p¥Ç∏p¥ÇÄx¥Çàx¥Çêx¥Çòx¥Ç†x¥Ç®x¥Ç∞x¥Ç∏x¥Ç

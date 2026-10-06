@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{597e4573-efff-4439-9108-becb0c7b4e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Shared">
+      <UniqueIdentifier>{7f10e317-6699-4a9e-8ca5-75d8a5dc0453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic">
+      <UniqueIdentifier>{13744296-3583-49c8-8b85-32ec701569f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Audio">
+      <UniqueIdentifier>{e599f542-e96d-4767-8658-99eb013a824a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Application">
+      <UniqueIdentifier>{1a707c9d-f844-4627-a17a-de953aea065c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Input">
+      <UniqueIdentifier>{fa2cf74a-522a-4910-9764-ec458c90c254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Game">
+      <UniqueIdentifier>{9bf2cab9-185e-4c81-a4cd-a2c406a9df6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Network">
+      <UniqueIdentifier>{62c6f733-16fd-4f7f-8806-710d18865c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Utilities">
+      <UniqueIdentifier>{2214c033-a2c0-4565-a05b-7ce695ffeb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\2D">
+      <UniqueIdentifier>{e86f5fb0-6351-4ed5-93af-6a25a04884a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\3D">
+      <UniqueIdentifier>{e7b94da0-869c-4423-8f71-87b7d8ba93ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Device">
+      <UniqueIdentifier>{8cdbeba2-9ffa-40bc-892f-0acb1b8a76d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Graphic\Renderer">
+      <UniqueIdentifier>{ece25e14-c9ff-47e5-aab1-050eb2d6ca63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic">
+      <UniqueIdentifier>{5de2eda6-319c-46e1-b395-cae57a1d2cd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Application">
+      <UniqueIdentifier>{2d99bdfa-8e0a-4954-ae88-f2c9f7b9aead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Audio">
+      <UniqueIdentifier>{14bb8682-8b83-4dd4-9e5c-8b9889cadcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Game">
+      <UniqueIdentifier>{6c0ded2f-a1e4-4ec3-89d4-416e7e32a6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Input">
+      <UniqueIdentifier>{a88b0d41-dddd-4ad8-9c09-eb75fbad2010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Network">
+      <UniqueIdentifier>{28b15f45-ab20-4640-b765-4c1e9023d42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Utilities">
+      <UniqueIdentifier>{cda5f587-4b89-41f9-9b9c-2813e6d0dd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ThirdParty">
+      <UniqueIdentifier>{e79032a3-4546-47c1-ae67-19894ea30f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ThirdParty">
+      <UniqueIdentifier>{c23d73c0-88cf-471d-ad7b-4edadf3f020d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\2D">
+      <UniqueIdentifier>{1b83ef72-b36c-4a0c-8c5d-4560bd1cae41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\3D">
+      <UniqueIdentifier>{7cb93642-8a7d-4592-97ae-85fe234311f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Device">
+      <UniqueIdentifier>{b36ddc83-b3a2-4be9-a27d-390810d6aca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Graphic\Renderer">
+      <UniqueIdentifier>{f0b5736b-d1ea-45d1-b616-6fced2fea3b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WO_pch.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\targetver.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Audio.hpp">
+      <Filter>Headerdateien\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_AudioComponents.hpp">
+      <Filter>Headerdateien\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Application.hpp">
+      <Filter>Headerdateien\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Window.hpp">
+      <Filter>Headerdateien\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Input.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_VirtualController.hpp">
+      <Filter>Headerdateien\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_GameTimer.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_GameScene.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_IGame.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_IGameSceneObject.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Network.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Entity.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Components.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_World.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Json.hpp">
+      <Filter>Headerdateien\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Scene.hpp">
+      <Filter>Headerdateien\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_EditorCommand.hpp">
+      <Filter>Headerdateien\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Utilities.hpp">
+      <Filter>Headerdateien\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Storage.hpp">
+      <Filter>Headerdateien\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_2DComponents.hpp">
+      <Filter>Headerdateien\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Batch2D.hpp">
+      <Filter>Headerdateien\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_SpriteBatch.hpp">
+      <Filter>Headerdateien\Graphic\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_3DComponents.hpp">
+      <Filter>Headerdateien\Graphic\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_DefaultFactory.hpp">
+      <Filter>Headerdateien\Graphic\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Materials.hpp">
+      <Filter>Headerdateien\Graphic\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_VertexTypes.hpp">
+      <Filter>Headerdateien\Graphic\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_DeviceDX11.hpp">
+      <Filter>Headerdateien\Graphic\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_DeferredRenderer.hpp">
+      <Filter>Headerdateien\Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_ForwardRenderer.hpp">
+      <Filter>Headerdateien\Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_RenderCommand.hpp">
+      <Filter>Headerdateien\Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_IRenderer.hpp">
+      <Filter>Headerdateien\Graphic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="WOtech.hpp" />
+    <ClInclude Include="ThirdParty\WICTextureLoader.hpp">
+      <Filter>Headerdateien\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\FontFileLoader.hpp">
+      <Filter>Headerdateien\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\MediaReader.hpp">
+      <Filter>Headerdateien\ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Macros.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Framecounter.hpp">
+      <Filter>Headerdateien\Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WO_pch.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Application.cpp">
+      <Filter>Quelldateien\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_AudioEngine.cpp">
+      <Filter>Quelldateien\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_AudioSource.cpp">
+      <Filter>Quelldateien\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_GameScene.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_World.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Json.cpp">
+      <Filter>Quelldateien\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Scene.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_EditorCommand.cpp">
+      <Filter>Quelldateien\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Network.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_GameTimer.cpp">
+      <Filter>Quelldateien\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Window.cpp">
+      <Filter>Quelldateien\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Storage.cpp">
+      <Filter>Quelldateien\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Input.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputGamepad.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputKeyboard.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputMouse.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputOrientationSensor.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputPen.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_InputTouch.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_VirtualController.cpp">
+      <Filter>Quelldateien\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\FontFileLoader.cpp">
+      <Filter>Quelldateien\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\WICTextureLoader.cpp">
+      <Filter>Quelldateien\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\MediaReader.cpp">
+      <Filter>Quelldateien\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Framecounter.cpp">
+      <Filter>Quelldateien\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_AnimatedSprite.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Batch2D.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Bitmap.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Font.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Geometry.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Image.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Sprite.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_SpriteBatch.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_TextBlock.cpp">
+      <Filter>Quelldateien\Graphic\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Buffer.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Camera.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Mesh.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Shader.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Texture.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Material.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_DeviceDX11.cpp">
+      <Filter>Quelldateien\Graphic\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_ForwardRenderer.cpp">
+      <Filter>Quelldateien\Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_DeferredRenderer.cpp">
+      <Filter>Quelldateien\Graphic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_DefaultFactory.cpp">
+      <Filter>Quelldateien\Graphic\3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Shader\Shared\Common.hlsli">
+      <Filter>Shader\Shared</Filter>
+    </None>
+    <None Include="Source\Shader\Shared\Lighting.hlsli">
+      <Filter>Shader\Shared</Filter>
+    </None>
+    <None Include="Source\Shader\Shared\Parameters.hlsli">
+      <Filter>Shader\Shared</Filter>
+    </None>
+    <None Include="Source\Shader\Shared\Structures.hlsli">
+      <Filter>Shader\Shared</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shader\PS_Basic.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shader\VS_Basic.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

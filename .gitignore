@@ -1,0 +1,44 @@
+# Build outputs
+bin/
+obj/
+x64/
+Debug/
+Release/
+Generated Files/
+Generated\ Files/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+*.ipch
+
+# Intermediate / linker
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.exp
+*.lib
+*.exe
+
+# NuGet is restored, not vendored
+packages/
+.tools/
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vscode/
