@@ -30,7 +30,7 @@ msbuild WOtech2.sln /p:Configuration=Debug /p:Platform=x64
 | cgltf 1.14 | https://github.com/jkuhlmann/cgltf | MIT | v1.14 |
 | WICTextureLoader, MediaReader, FontFileLoader | existing `ThirdParty/` | see `ThirdParty/README.md` | existing |
 
-Production HDRIs: https://polyhaven.com/hdris. This repo ships only a small generated sample under `Assets/HDRI`.
+Production HDRIs: https://polyhaven.com/hdris. This repo ships only a small generated sample under `Assets/HDRI`. The feature frame is HDR, SSAO, a shadow map, and tonemap; full IBL convolution is not in the shader yet.
 
 ## Layout
 
