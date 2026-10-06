@@ -30,7 +30,7 @@ msbuild WOtech2.sln /p:Configuration=Debug /p:Platform=x64
 | cgltf 1.14 | https://github.com/jkuhlmann/cgltf | MIT | v1.14 |
 | WICTextureLoader, MediaReader, FontFileLoader | existing `ThirdParty/` | see `ThirdParty/README.md` | existing |
 
-Production HDRIs: https://polyhaven.com/hdris. This repo ships only a small generated sample under `Assets/HDRI`. The feature frame is HDR, SSAO, a shadow map, and tonemap; full IBL convolution is not in the shader yet.
+Production HDRIs: https://polyhaven.com/hdris. This repo ships only a small generated sample under `Assets/HDRI`. The feature frame builds an irradiance cubemap, a prefiltered specular cubemap, and a BRDF LUT from that sample, samples them in the PBR shader, and applies a 3x3 PCF shadow of the feature mesh. HDR, SSAO, and Reinhard tonemap stay on the same path.
 
 ## Layout
 

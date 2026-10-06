@@ -8,7 +8,7 @@
 ///			File: WO_RenderPipeline.hpp
 ///
 ///			Description:
-///			HDR, tonemap, SSAO, and soft shadow passes on a DX11 device.
+///			HDR, tonemap, SSAO, PCF shadows, and IBL sampled by PBR.
 ///			Does not replace DeviceDX11. Swap chain stays B8G8R8A8.
 ///
 ///			Created:	06.10.2026
