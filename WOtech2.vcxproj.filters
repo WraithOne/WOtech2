@@ -204,6 +204,18 @@
     <ClInclude Include="Include\WO_Framecounter.hpp">
       <Filter>Headerdateien\Utilities</Filter>
     </ClInclude>
+    <ClInclude Include="Include\WO_Physics.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Script.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_RenderPipeline.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\WO_Gltf.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WO_pch.cpp">
@@ -338,6 +350,18 @@
     <ClCompile Include="Source\WO_DefaultFactory.cpp">
       <Filter>Quelldateien\Graphic\3D</Filter>
     </ClCompile>
+    <ClCompile Include="Source\WO_Physics.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Script.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_RenderPipeline.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WO_Gltf.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Source\Shader\Shared\Common.hlsli">
@@ -352,6 +376,10 @@
     <None Include="Source\Shader\Shared\Structures.hlsli">
       <Filter>Shader\Shared</Filter>
     </None>
+    <None Include="$(_WindowsMLLocalNativePath)\onnxruntime.dll" />
+    <None Include="$(_WindowsMLLocalNativePath)\DirectML.dll" />
+    <None Include="$(_WindowsMLLocalNativePath)\Microsoft.Windows.AI.MachineLearning.dll" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Source\Shader\PS_Basic.hlsl">
